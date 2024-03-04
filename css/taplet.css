@@ -1,0 +1,35 @@
+@media(min-width: 576px) and (max-width:991px) {
+    /* ẩn avatar */
+    .avatar {
+        display: none !important;
+    }
+    /* #job-info>div>div>div {
+        background-color: #199cdb !important;
+        max-width: 250px !important;
+        min-width: 225px;
+    } */
+    /*DỰ ÁN*/
+    .project>div>div>div>div>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: 5rem auto;
+        padding-bottom: 0.5rem;
+    }
+    .project>div>div>div>div>div:nth-child(2)>span {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .project>div>div>div>div>div:nth-child(2)>span:last-child {
+        grid-area: 2/2/3/3;
+    }
+    /*CHỨNG CHỈ GIẢI THƯỞNG*/
+    .certificate>div>div>div:first-child {
+        border-right: rgb(239, 222, 205) solid 0.5px;
+    }
+    /*FOOTER'S ICONS*/
+    .footer i {
+        transform: scale(1.5);
+        display: inline-block;
+        margin: 8px;
+        margin-right: 3px;
+    }
+}

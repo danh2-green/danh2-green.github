@@ -1,0 +1,31 @@
+@media (max-width:575px) {
+    /* ẩn avatar */
+    .avatar {
+        display: none !important;
+    }
+    /*thông tin cá nhân,mục tiêu nghề nghiệp */
+    #target,
+    #personal-info {
+        width: 100% !important;
+    }
+    #job-info>div>div>div {
+        /* background-color: #199cdb !important; */
+        width: 250px !important;
+    }
+    /*DỰ ÁN*/
+    .project>div>div>div>div>div:nth-child(2) {
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+    }
+    .project>div>div>div>div>div:nth-child(2)>span {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    /*CHỨNG CHỈ GIẢI THƯỞNG*/
+    .certificate>div>div>div:first-child {
+        border-bottom: rgb(239, 222, 205) solid 0.5px;
+        padding-bottom: 1.5rem;
+    }
+}
